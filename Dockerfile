@@ -1,8 +1,6 @@
-FROM node
+FROM node:7.3.0
 
-MAINTAINER Ryze <hz.bgning@gmail.com>
-
-
+COPY . /home/project
 WORKDIR /home/project
 
 EXPOSE 3000
