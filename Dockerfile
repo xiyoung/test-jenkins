@@ -1,5 +1,7 @@
 FROM node:7.3.0
 
+RUN mkdir -p /home/project
+
 COPY . /home/project
 
 WORKDIR /home/project
